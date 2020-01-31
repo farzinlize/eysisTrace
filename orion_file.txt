@@ -1,0 +1,27 @@
+======== Energy statistics for sub_network at 1e+09 Hz =======
+Crossbar Power  :: Dynamic: 0.413005  Static: 0.333788  Total: 0.746793
+Buffer Power    :: Dynamic: 0.467111  Static: 1.055  Total: 1.52211
+SW_arbiter Power:: Dynamic: 0.0106292  Static: 0.00449857  Total: 0.0151278
+VC_arbiter Power:: Dynamic: 0.00146598  Static: 0.119962  Total: 0.121428
+Link Power      :: Dynamic: 0.668478  Static: 0.144875  Total: 0.78844
+Circuit-switching Power (CS mode only):	0
+
+Total Average Power Consumption (W)    =	3.22028
+Total Average Energy per Flit =	5.29499e-10
+
+Power Breakdown:
+	Crossbars:	23.1903 %
+	Buffers:	47.2664 %
+	Links:		25.2572 %
+	SW_arbiters:	0.469767 %
+	VC_arbiters:	3.77073 %
+
+Internal Reports:
+Total Number of Detected Flits:		273240 ( Header: 13662 )
+Total Number of Orion Function Calls:	1379862
+
+================= Number of Filts ==================
+ The Total Number of Injected Flits:	43600
+ The Total Number of Retired Flits:	43600
+====================================================
+
