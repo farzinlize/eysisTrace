@@ -3,7 +3,7 @@
 // Topology
 
 topology = mesh;
-k = 8;
+k = 13;
 n = 2;
 
 // Routing
@@ -30,5 +30,5 @@ internal_speedup  = 1.0;
 
 // Simulation
 sim_type = workload;
-workload = trace({examples/torus88});
+workload = trace({examples/tracefiles/superSRAM,{85,1,2,3,4,58}});
 
